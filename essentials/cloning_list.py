@@ -7,3 +7,5 @@ a[1] = 5
 print("a =",a)
 print("b =",b)
 print("c =",c)
+
+# c = a.copy() == c = list(a)
