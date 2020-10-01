@@ -22,3 +22,6 @@ print(list)
 
 print(list.index("Python"))
 
+list_sum = [2,3,4,5]
+print(sum(list_sum))      # 14
+print(sum(list_sum, 10))  # 24

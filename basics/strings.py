@@ -26,3 +26,8 @@ print(a.split(" "))
 print(a.upper())
 print(a.lower())
 print(a.title())
+
+str = "Python"
+print(reversed(str))  # <reversed object at 0x000002556D524C70>
+s = ''
+print(s.join(reversed(str))) # reverses a string
