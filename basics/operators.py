@@ -72,7 +72,7 @@ print(a == b)       # True
 
 b = 10.0
 print(a is b) # False
-# "is" checks if objects appoints to the same value
+# "is" checks if objects appoint to the same value
 
 print(a == b)  # True
 # "==" checks if values are equal

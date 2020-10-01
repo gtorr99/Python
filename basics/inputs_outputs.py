@@ -23,3 +23,4 @@ list = [x for x in input("Enter the elements: ").split(sep=",")]
 print("List:", list)
 
 
+

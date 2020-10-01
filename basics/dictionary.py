@@ -1,6 +1,6 @@
 # Dictionary: key-value variable
-# Only one value. If there is more than one, it consideres the last
-# You're able only to update values, not keys
+# Only one key name. If there is more than one, it consideres the last
+# You can only update values, not keys
 
 dict = {'name': 'John', 'age' : 25}
 
