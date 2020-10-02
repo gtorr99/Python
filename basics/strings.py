@@ -31,3 +31,18 @@ str = "Python"
 print(reversed(str))  # <reversed object at 0x000002556D524C70>
 s = ''
 print(s.join(reversed(str))) # reverses a string
+
+
+# Remove duplicated element
+
+from collections import OrderedDict
+str1 = "Hello Everyone"
+print(set(str1))
+
+str1 = ''.join(set(str1))
+print(str1) # it's unordered
+
+str2 = "Hello Everyone"
+str2 = ''.join(OrderedDict.fromkeys(str2))
+
+print(str2)
