@@ -25,3 +25,14 @@ print(list.index("Python"))
 list_sum = [2,3,4,5]
 print(sum(list_sum))      # 14
 print(sum(list_sum, 10))  # 24
+
+# Swapping elements
+ls = [1,2,3]
+ls[1], ls[2] = ls[2] , ls[1]
+
+a=2
+b=1
+a,b = b,a
+
+print(ls)
+print(a, b)
