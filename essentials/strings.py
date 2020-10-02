@@ -55,3 +55,14 @@ print(list)
 
 list.sort()
 print(list)
+
+# Removing punctuation
+from string import punctuation
+
+new_string = ''
+
+for c in string:
+    if c not in punctuation:
+        new_string += c
+
+print(new_string) 
