@@ -1,4 +1,4 @@
-def selection_sort(ls):
+def selection(ls):
     for i in range(len(ls)):
         min = i
 
@@ -11,4 +11,4 @@ def selection_sort(ls):
     return ls
 
 ls = [5,3,1,8,0,6,9]
-print(selection_sort(ls))
+print(selection(ls))
