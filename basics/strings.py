@@ -15,7 +15,7 @@ print(a.rstrip())
 
 print(a.find("py")) # returns -1 if doesn't find
 print(a.find("Py")) 
-print(a.count("l")) # counts till first "l"
+print(a.count("l")) # counts occurrences of an element
 
 print(a.replace("Python", "world"))
 print(a)
