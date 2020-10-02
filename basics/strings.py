@@ -46,3 +46,12 @@ str2 = "Hello Everyone"
 str2 = ''.join(OrderedDict.fromkeys(str2))
 
 print(str2)
+
+# Sort in alphaetic order
+
+string = "Hello there! I'm learning Python"
+list = string.split()
+print(list)
+
+list.sort()
+print(list)
