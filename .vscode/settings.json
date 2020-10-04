@@ -6,4 +6,5 @@
     "editor.quickSuggestions": false,
     "editor.suggestOnTriggerCharacters": false,
     "editor.wordBasedSuggestions": false,
+    "python.formatting.provider": "black",
 }
