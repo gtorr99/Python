@@ -41,3 +41,34 @@ b = [
     ]
 
 print(matrix_addtion(a, b))
+
+
+def matrix_multiplication(a, b):
+    c = [
+            [0, 0, 0, 0],
+            [0, 0, 0, 0],
+            [0, 0, 0, 0]
+        ]
+    for rowA in range(len(a)):
+        for colB in range(len(b[0])):
+            for rowB in range(len(b)):
+                c[rowA][colB] += a[rowA][rowB] * b[rowB][colB]
+    return c
+
+a = [
+        [2, 7, 3],
+        [5, 9, 2],
+        [5, 13, 10]
+    ]
+
+b = [
+        [5, 8, 1, 9],
+        [6, 7, 8, 0],
+        [4, 5, 10, 1]
+    ]
+
+print(matrix_multiplication(a, b))
+print(len(a))
+print(len(a[0]))
+print(len(b))
+print(len(b[0]))
