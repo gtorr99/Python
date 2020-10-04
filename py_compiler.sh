@@ -1,4 +1,5 @@
 #/bin/bash
-
-d=`echo $1 | tr '\' '/'`
+clear
+d=`echo $1 | tr '\' '/' 2> /dev/null`
 python.exe $d
+read
