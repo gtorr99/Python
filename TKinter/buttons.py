@@ -2,10 +2,7 @@ from tkinter import *
 from functools import partial
 
 def bt_click(btn):
-    if btn == bt1:
-        print("button 1 click")
-    elif btn == bt2:
-        print("button 2 click")
+    print(btn["text"])
 
 screen = Tk()
 
