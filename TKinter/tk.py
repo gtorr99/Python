@@ -1,4 +1,4 @@
-From Tkinter import *
+from tkinter import *
 
 
 class Application:
