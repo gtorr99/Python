@@ -14,6 +14,5 @@ bt = Button(screen, width=20, text="Ok", command=bt_click)
 bt.place(x=100, y=100)
 
 
-
 screen.geometry("300x300+200+200")
 screen.mainloop()
